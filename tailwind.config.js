@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         "primary-bg-color": "#0c1f50",
       },
+      spacing: {
+        120: "34rem",
+      },
     },
   },
   plugins: [],

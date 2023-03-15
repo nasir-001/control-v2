@@ -47,7 +47,7 @@
       </q-list>
     </q-drawer>
 
-    <q-page-container class="tw-px-6 lg:tw-px-16">
+    <q-page-container>
       <router-view />
     </q-page-container>
   </q-layout>
