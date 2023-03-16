@@ -2,6 +2,7 @@
   <div>
     <introduction></introduction>
     <hero></hero>
+    <note></note>
   </div>
 </template>
 
@@ -9,9 +10,10 @@
 import { defineComponent } from "vue";
 import Introduction from "components/Introduction.vue";
 import Hero from "components/Hero.vue";
+import Note from "components/Note.vue";
 
 export default defineComponent({
-  components: { Introduction, Hero },
+  components: { Introduction, Hero, Note },
   name: "IndexPage",
 });
 </script>
