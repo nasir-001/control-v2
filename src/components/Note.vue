@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="tw-w-1/4">
-          <div class="tw-font-medium tw-text-lg">5. tauhid</div>
+          <div class="tw-font-medium tw-text-lg">5. Tauhid</div>
           <div class="tw-text-sm tw-text-gray-600">
             Our courses offer industry recognize certification upon completion,
             affiliate to leading universities. This certificate enhanced your
