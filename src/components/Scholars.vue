@@ -1,7 +1,7 @@
 <template>
   <div class="tw-mt-24">
     <div>
-      <div class="title tw-text-3xl tw-text-center">Meet Our Team</div>
+      <div class="title tw-text-3xl tw-text-center">Scholars</div>
       <div class="row tw-justify-center tw-mt-8">
         <div
           class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl"
@@ -56,14 +56,59 @@
           </div>
         </div>
       </div>
-      <div class="row tw-justify-center tw-mt-12">
-        <q-btn
-          outline
-          no-caps
-          class="tw-w-36 tw-rounded-full"
-          label="Join Our Team"
-          @click="onClick"
-        />
+      <div class="row tw-justify-center tw-mt-8">
+        <div
+          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl"
+        >
+          <div class="row tw-justify-center">
+            <q-img
+              src="~assets/img/bashir.png"
+              class="tw-w-24 tw-h-24 tw-rounded-full tw-mt-10"
+            />
+          </div>
+          <div class="tw-text-center tw-font-medium tw-text-base tw-pt-2">
+            Bashir Isah Dodo
+          </div>
+        </div>
+        <div
+          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl"
+        >
+          <div class="row tw-justify-center">
+            <q-img
+              src="~assets/img/nasir.png"
+              class="tw-w-24 tw-h-24 tw-rounded-full tw-mt-10"
+            />
+          </div>
+          <div class="tw-text-center tw-font-medium tw-text-base tw-pt-2">
+            Nasir Ibrahim Abba
+          </div>
+        </div>
+        <div
+          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl"
+        >
+          <div class="row tw-justify-center">
+            <q-img
+              src="~assets/img/nasir.png"
+              class="tw-w-24 tw-h-24 tw-rounded-full tw-mt-10"
+            />
+          </div>
+          <div class="tw-text-center tw-font-medium tw-text-base tw-pt-2">
+            Dahir Muhammad Dahir
+          </div>
+        </div>
+        <div
+          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl"
+        >
+          <div class="row tw-justify-center">
+            <q-img
+              src="~assets/img/nasir.png"
+              class="tw-w-24 tw-h-24 tw-rounded-full tw-mt-10"
+            />
+          </div>
+          <div class="tw-text-center tw-font-medium tw-text-base tw-pt-2">
+            Nasir Ibrahim Abba
+          </div>
+        </div>
       </div>
     </div>
   </div>
