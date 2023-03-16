@@ -1,6 +1,6 @@
 <template>
-  <div class="tw-bg-primary-bg-color tw-h-56 tw-mt-36">
-    <div class="tw-pt-12 tw-px-24">
+  <div class="tw-bg-primary-bg-color sm:tw-h-56 tw-mt-36">
+    <div class="tw-pt-12 tw-px-6 sm:tw-px-24">
       <div class="row tw-justify-between">
         <div>
           <div class="tw-font-medium tw-text-2xl tw-text-white">Chat Islam</div>
@@ -12,7 +12,7 @@
             real-time.
           </div>
         </div>
-        <div>
+        <div class="tw-mb-6 sm:tw-mb-0">
           <div class="tw-text-white tw-text-lg tw-font-medium">Contacts</div>
           <div>
             <div class="row tw-mt-4">

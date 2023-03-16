@@ -1,10 +1,12 @@
 <template>
-  <div class="tw-mt-24">
+  <div class="tw-mt-12 sm:tw-mt-24">
     <div>
-      <div class="title tw-text-3xl tw-text-center">Meet Our Team</div>
-      <div class="row tw-justify-center tw-mt-8">
+      <div class="title tw-text-2xl sm:tw-text-3xl tw-text-center">
+        Meet Our Team
+      </div>
+      <div class="row tw-justify-center sm:tw-mt-8">
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl"
+          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-mt-4 sm:tw-mt-0 tw-border-primary-bg-color tw-rounded-2xl"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -17,7 +19,7 @@
           </div>
         </div>
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl"
+          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-mt-4 sm:tw-mt-0 tw-border-primary-bg-color tw-rounded-2xl"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -30,7 +32,7 @@
           </div>
         </div>
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl"
+          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-mt-4 sm:tw-mt-0 tw-border-primary-bg-color tw-rounded-2xl"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -43,7 +45,7 @@
           </div>
         </div>
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl"
+          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-mt-4 sm:tw-mt-0 tw-border-primary-bg-color tw-rounded-2xl"
         >
           <div class="row tw-justify-center">
             <q-img

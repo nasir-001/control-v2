@@ -9,25 +9,25 @@
           dense
           round
           icon="menu"
-          class="tw-hidden"
+          class="sm:tw-hidden"
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
-        <q-img src="~assets/img/logo.png" class="tw-w-6" />
+        <q-img src="~assets/img/logo.png" class="tw-w-6 tw-ml-4 sm:tw-ml-0" />
         <q-toolbar-title> Chat Islam </q-toolbar-title>
-        <div class="row tw-justify-end tw-w-4/6">
+        <div class="tw-justify-end tw-w-4/6 tw-hidden sm:tw-flex">
           <div class="row lg:tw-w-5/6 tw-mt-4">
             <div class="tw-mx-2 lg:tw-mx-6 tw-text-base">
               <a data-scroll href="#home">About Us</a>
             </div>
             <div class="tw-mx-2 lg:tw-mx-6 tw-text-base">
-              <a data-scroll href="#about">Mission</a>
+              <a data-scroll href="#mission">Mission</a>
             </div>
             <div class="tw-mx-2 lg:tw-mx-6 tw-text-base">
-              <a data-scroll href="#services">Team</a>
+              <a data-scroll href="#team">Team</a>
             </div>
           </div>
-          <div class="-tw-mt-8">
+          <div>
             <q-btn
               class="tw-rounded-full tw-w-36"
               unelevated
@@ -42,8 +42,29 @@
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen">
-      <q-list>
-        <q-item-label header> Essential Links </q-item-label>
+      <q-list class="tw-pl-5">
+        <q-item-label header> Chat Islam </q-item-label>
+        <q-item clickable v-ripple>
+          <q-item-section>
+            <q-item-label>
+              <a data-scroll href="#home">About Us</a>
+            </q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable v-ripple>
+          <q-item-section>
+            <q-item-label>
+              <a data-scroll href="#mission">Mission</a>
+            </q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable v-ripple>
+          <q-item-section>
+            <q-item-label>
+              <a data-scroll href="#team">Team</a>
+            </q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 

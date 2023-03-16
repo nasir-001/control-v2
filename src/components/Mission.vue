@@ -1,6 +1,6 @@
 <template>
   <div class="tw-mt-24">
-    <div class="tw-bg-primary-bg-color tw-h-80">
+    <div class="tw-bg-primary-bg-color lg:tw-h-80">
       <div class="row tw-justify-between">
         <div
           class="tw-bg-white tw-h-14 tw-w-14 tw-rounded-full -tw-mt-5 -tw-ml-5"
@@ -11,7 +11,7 @@
       </div>
       <div class="row tw-justify-evenly tw-mx-12">
         <div
-          class="tw-mt-9 tw-text-white tw-w-1/2 tw-px-4 tw-border-r tw-border-white"
+          class="sm:tw-mt-9 tw-text-white sm:tw-w-1/2 tw-px-4 sm:tw-border-r tw-border-white"
         >
           <div class="tw-text-lg tw-font-medium">Mission</div>
           <div class="tw-pt-2">
@@ -23,9 +23,13 @@
             among people of different faiths and cultures.
           </div>
         </div>
-        <div class="tw-mt-9 tw-text-white tw-w-1/2 tw-px-4">
-          <div class="tw-text-lg tw-font-medium">Vission</div>
-          <div class="tw-pt-2">
+        <div
+          class="sm:tw-mt-9 tw-text-white sm:tw-w-1/2 tw-px-4 tw-border-t tw-border-white sm:tw-border-none tw-mt-5"
+        >
+          <div class="tw-text-lg tw-font-medium tw-pt-4 sm:tw-pt-0">
+            Vission
+          </div>
+          <div class="tw-pt-2 tw-pb-14 lg:tw-pb-0">
             Our vision is to create an innovative and user-friendly Islamic
             chatbot that serves as a gateway to Islamic knowledge and education.
             We envision a world where individuals can access accurate and

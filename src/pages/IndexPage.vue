@@ -1,11 +1,11 @@
 <template>
   <div>
     <introduction></introduction>
-    <hero></hero>
+    <hero id="home"></hero>
     <note></note>
-    <mission></mission>
+    <mission id="mission"></mission>
     <bot></bot>
-    <team></team>
+    <team id="team"></team>
     <scholars></scholars>
     <app-footer></app-footer>
   </div>
