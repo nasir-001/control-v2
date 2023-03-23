@@ -1,7 +1,7 @@
 <template>
   <div class="tw-mt-44 md:tw-mt-72">
     <div class="tw-h-64 md:tw-h-80 tw-bg-primary-bg-color">
-      <div class="row tw-justify-center">
+      <div data-aos="fade-up" class="row tw-justify-center">
         <div class="-tw-mt-16 md:-tw-mt-44">
           <q-img src="~assets/img/desktop.png" class="tw-w-72 md:tw-w-120" />
         </div>

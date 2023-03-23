@@ -6,7 +6,7 @@
       </div>
       <div class="row tw-justify-center tw-mt-8">
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
+          class="tw-w-64 tw-h-56 card tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -19,7 +19,7 @@
           </div>
         </div>
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
+          class="tw-w-64 tw-h-56 card tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -32,7 +32,7 @@
           </div>
         </div>
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
+          class="tw-w-64 tw-h-56 card tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -45,7 +45,7 @@
           </div>
         </div>
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
+          class="tw-w-64 tw-h-56 card tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -60,7 +60,7 @@
       </div>
       <div class="row tw-justify-center sm:tw-mt-8">
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
+          class="tw-w-64 tw-h-56 card tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -73,7 +73,7 @@
           </div>
         </div>
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
+          class="tw-w-64 tw-h-56 card tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -86,7 +86,7 @@
           </div>
         </div>
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
+          class="tw-w-64 tw-h-56 card tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -99,7 +99,7 @@
           </div>
         </div>
         <div
-          class="tw-w-64 tw-h-56 tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
+          class="tw-w-64 tw-h-56 card tw-border-2 tw-mx-2 tw-border-primary-bg-color tw-rounded-2xl tw-mt-4 sm:tw-mt-0"
         >
           <div class="row tw-justify-center">
             <q-img
@@ -129,5 +129,11 @@ export default defineComponent({
   background: linear-gradient(to right, #fd8a45 0%, #0b1e4f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.card:hover {
+  transform: translateY(-5%);
+}
+.card {
+  transition: all ease 900ms;
 }
 </style>

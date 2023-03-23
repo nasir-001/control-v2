@@ -11,13 +11,14 @@
     </div>
     <div class="tw-mt-16">
       <div class="row tw-justify-center">
-        <div>
+        <div data-aos="fade-down">
           <q-img
             src="~assets/img/bot.png"
             class="tw-w-96 tw-object-contain tw-rounded-r-xl sm:tw-rounded-none"
           />
         </div>
         <div
+          data-aos="fade-up"
           class="tw-bg-primary-bg-color tw-px-6 sm:tw-px-12 tw-w-120 sm:tw-rounded-r-2xl tw-mt-6 sm:tw-mt-0"
         >
           <div class="tw-pt-12 sm:tw-pt-20 tw-text-white">

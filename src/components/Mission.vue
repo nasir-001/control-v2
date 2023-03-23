@@ -11,6 +11,7 @@
       </div>
       <div class="row tw-justify-evenly tw-mx-12">
         <div
+          data-aos="fade-down"
           class="sm:tw-mt-9 tw-text-white sm:tw-w-1/2 tw-px-4 sm:tw-border-r tw-border-white"
         >
           <div class="tw-text-lg tw-font-medium">Mission</div>
@@ -24,6 +25,7 @@
           </div>
         </div>
         <div
+          data-aos="fade-up"
           class="sm:tw-mt-9 tw-text-white sm:tw-w-1/2 tw-px-4 tw-border-t tw-border-white sm:tw-border-none tw-mt-5"
         >
           <div class="tw-text-lg tw-font-medium tw-pt-4 sm:tw-pt-0">
